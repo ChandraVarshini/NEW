@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+  pageHeader:string="Favourite Movie:Lord of the rings";
+  constructor(){}
+    ngOnInit(){
+
+    
+  }
 }

@@ -1,0 +1,15 @@
+<div>
+    <h2>Employee details</h2>
+    <div class="well hoverwell thumbnail">
+        <div>ID:{{emp.id}}</div>
+        <div>Name:{{emp.name}}</div>
+        <div>Date:{{emp.date}}</div>
+        <div>Salary:{{emp.salary | currency:'INR'}} </div>
+        <tr>Skills</tr>
+        <div *ngFor="let empl of emp.skill" >
+            {{empl.skill_id}}  {{empl.skill_name}}
+        </div>
+        <div>Date Of Birth:{{emp.DOB}}</div>
+    </div>
+</div>
+   
